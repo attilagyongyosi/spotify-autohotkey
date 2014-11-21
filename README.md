@@ -1,6 +1,6 @@
 Spotify AutoHotKey Controller
 =============================
-Based on *chripopper*'s script posted on the [AHK forums](http://www.autohotkey.com/board/topic/35402-spotify-and-ahk/page-2), this [AutoHotKey](http://www.autohotkey.com/) script (or the compiler executable) offers global hotkeys to control the Spotify Windows client.
+Based on *chripopper*'s script posted on the [AHK forums](http://www.autohotkey.com/board/topic/35402-spotify-and-ahk/page-2), this [AutoHotKey](http://www.autohotkey.com/) script (or the compiled executable) offers global hotkeys to control the Spotify Windows client.
 
 Launching the controller will automatically launch Spotify too
 and (as of now) closing the controller closes Spotify as well.
