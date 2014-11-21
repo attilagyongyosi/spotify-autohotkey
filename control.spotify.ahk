@@ -273,6 +273,24 @@ DetectHiddenWindows, Off
 return
 }
 
+; "CTRL + Alt + Left"  for seeking backward
+^!LEFT::
+{
+DetectHiddenWindows, On
+ControlSend, ahk_parent, +{Left}, ahk_class SpotifyMainWindow
+DetectHiddenWindows, Off
+return
+}
+
+; "CTRL + Alt + Right"  for seeking forward
+^!RIGHT::
+{
+DetectHiddenWindows, On
+ControlSend, ahk_parent, +{Right}, ahk_class SpotifyMainWindow
+DetectHiddenWindows, Off
+return
+}
+
 ; "CTRL + Down"  for info
 ^Down::
 {
@@ -346,7 +364,6 @@ return
 
 
 Ex:
-process, close, spotify.exe
 ExitApp
 return
 
