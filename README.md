@@ -11,9 +11,15 @@ Huge thanks to *chripopper*, wherever you are. :)
 Controls
 --------
 **Ctrl + Up** - Play/Pause current song
+
 **Ctrl + Right** - Play next song
+
 **Ctrl + Left** - Play previous song
+
 **Ctrl + PageUp/PageDown** - Volume Up/Down
+
 **Ctrl + Down** - Show currently played song notification
+
 **Ctrl + Alt + Down** - Open Spotify window
+
 **Ctrl + Alt + S** - Toggle Shuffle Mode
