@@ -8,6 +8,8 @@ Launching the controller will automatically launch Spotify too.
 This is just something I put together for my own use.
 Huge thanks to *chripopper*, wherever you are. :)
 
+Download the executable right **[HERE](https://dl.dropboxusercontent.com/u/3483483/misc/spotify-controller/spotify-controller.exe)** if you don't want to fiddle with git.
+
 Controls
 --------
 **Ctrl + Up** - Play/Pause current song
