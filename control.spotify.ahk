@@ -259,7 +259,7 @@ return
 ; "CTRL + Left"  for previous
 ^Left::
 DetectHiddenWindows, On
-ControlSend, ahk_parent, ^{Left}, ahk_class SpotifyMainWindow
+^Left::Media_Prev
 DetectHiddenWindows, Off
 return
 
@@ -268,7 +268,7 @@ return
 ^Right::
 {
 DetectHiddenWindows, On
-ControlSend, ahk_parent, ^{Right}, ahk_class SpotifyMainWindow
+^Right::Media_Next
 DetectHiddenWindows, Off
 return
 }
@@ -307,7 +307,7 @@ return
 ^UP::
 {
 DetectHiddenWindows, On
-ControlSend, ahk_parent, {space}, ahk_class SpotifyMainWindow
+^Space::Media_Play_Pause
 DetectHiddenWindows, Off
 return
 }
