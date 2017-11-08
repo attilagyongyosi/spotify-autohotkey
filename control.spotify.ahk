@@ -333,8 +333,7 @@ return
 
 RefreshTrayTip:
 DetectHiddenWindows, On
-WinGetTitle, now_playing, ahk_class SpotifyMainWindow
-StringTrimLeft, playing, now_playing, 10
+WinGetTitle, playing, ahk_class SpotifyMainWindow
 if(playing != playingsave) {
   TrayTip, Now playing:, %playing%, 10 , 16
   SetTimer, RemoveTrayTip, -5000
